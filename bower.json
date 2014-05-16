@@ -1,0 +1,27 @@
+{
+  "name": "ng-small-examples",
+  "version": "0.0.1",
+  "homepage": "https://github.com/benatkin/ng-small-examples",
+  "authors": [
+    "Benjamin Atkin <ben@benatkin.com>"
+  ],
+  "description": "small angular.js examples",
+  "keywords": [
+    "angular",
+    "examples"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jasmine": "2.0.0",
+    "angular": "~1.2.16",
+    "angular-mocks": "~1.2.16"
+  }
+}

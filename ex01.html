@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="example">
+  <head>
+    <link rel="stylesheet" href="bower_components/jasmine/lib/jasmine-core/jasmine.css" />
+    <script src="bower_components/jasmine/lib/jasmine-core/jasmine.js"></script>
+    <script src="bower_components/jasmine/lib/jasmine-core/jasmine-html.js"></script>
+    <script src="bower_components/jasmine/lib/jasmine-core/boot.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-mocks/angular-mocks.js"></script>
+    <script src="ex01.js"></script>
+  </head>
+  <body>
+    <div>
+      <h1>Random Colors:</h1> 
+      <p><em>Use View Source to see the code!</em></p>
+      <ul>
+        <li ng-repeat="i in [0,1,2,3,4]">
+          <random-color></random-color>
+        </li>
+      </ul>
+      <hr>
+      <a href="./">Index</a>
+      <hr>
+    </div>
+  </body>
+</html>
